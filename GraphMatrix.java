@@ -27,7 +27,7 @@ public class GraphMatrix {
         }
     }   
     
-    public void print(){
+    public void display(){
         System.out.println("Graph matrix:");
         System.out.println();
         System.out.print("  ");

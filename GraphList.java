@@ -33,7 +33,7 @@ public class GraphList {
         return false;
     }
 
-    public void print(){
+    public void display(){
         for(LinkedList<Node> currentList : alist){
             for(Node node : currentList){
                 System.out.print(node.data + " -> ");

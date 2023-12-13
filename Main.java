@@ -38,12 +38,12 @@ public class Main {
         graphList.addEdge(4, 0);
         graphList.addEdge(4, 2);
 
-        graphMatrix.print();
+        graphMatrix.display();
         
         System.out.println("Linked graph:");
         System.out.println();
 
-        graphList.print();
+        graphList.display();
 
         System.out.println();
 
