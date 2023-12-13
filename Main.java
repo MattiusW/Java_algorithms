@@ -5,7 +5,9 @@ public class Main {
         System.out.println();
         System.out.println();
 
+        //Graph matrix
         GraphMatrix graphMatrix = new GraphMatrix(5);
+    
 
         graphMatrix.addNode(new Node('A'));
         graphMatrix.addNode(new Node('B'));
