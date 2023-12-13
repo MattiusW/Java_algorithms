@@ -5,22 +5,22 @@ public class Main {
         System.out.println();
         System.out.println();
 
-        Graph graph = new Graph(5);
+        GraphMatrix graphMatrix = new GraphMatrix(5);
 
-        graph.addNode(new Node('A'));
-        graph.addNode(new Node('B'));
-        graph.addNode(new Node('C'));
-        graph.addNode(new Node('D'));
-        graph.addNode(new Node('E'));
+        graphMatrix.addNode(new Node('A'));
+        graphMatrix.addNode(new Node('B'));
+        graphMatrix.addNode(new Node('C'));
+        graphMatrix.addNode(new Node('D'));
+        graphMatrix.addNode(new Node('E'));
 
-        graph.addEdge(0, 1);
-        graph.addEdge(1, 2);
-        graph.addEdge(2, 3);
-        graph.addEdge(2, 4);
-        graph.addEdge(4, 0);
-        graph.addEdge(4, 2);
+        graphMatrix.addEdge(0, 1);
+        graphMatrix.addEdge(1, 2);
+        graphMatrix.addEdge(2, 3);
+        graphMatrix.addEdge(2, 4);
+        graphMatrix.addEdge(4, 0);
+        graphMatrix.addEdge(4, 2);
 
-        graph.print();
+        graphMatrix.print();
     }
 
 }

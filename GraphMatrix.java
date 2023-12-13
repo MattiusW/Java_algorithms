@@ -1,11 +1,11 @@
 import java.util.ArrayList;
 
-public class Graph {
+public class GraphMatrix {
     
     ArrayList<Node> nodes;
     int[][] matrix;
 
-    Graph(int size){
+    GraphMatrix(int size){
         nodes = new ArrayList<>();
         matrix = new int[size][size];
     }
