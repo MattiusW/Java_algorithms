@@ -8,6 +8,9 @@ public class Main {
         //Graph matrix
         GraphMatrix graphMatrix = new GraphMatrix(5);
 
+        //Graph list
+        GraphList graphList = new GraphList();
+
         graphMatrix.addNode(new Node('A'));
         graphMatrix.addNode(new Node('B'));
         graphMatrix.addNode(new Node('C'));
