@@ -1,3 +1,5 @@
+package brocode;
+
 public class Main {
     
     public static void main(String[] args){
@@ -25,25 +27,26 @@ public class Main {
         graphMatrix.addEdge(4, 2);
 
 
-        graphList.addNode(new Node('A'));
-        graphList.addNode(new Node('B'));
-        graphList.addNode(new Node('C'));
-        graphList.addNode(new Node('D'));
-        graphList.addNode(new Node('E'));
+        graphList.addNode(new Node(1));
+        graphList.addNode(new Node(2));
+        graphList.addNode(new Node(3));
+        graphList.addNode(new Node(4));
+        graphList.addNode(new Node(5));
 
-        graphList.addEdge(0, 1);
-        graphList.addEdge(1, 2);
-        graphList.addEdge(2, 3);
+        graphList.addEdge(0, 2);
+        graphList.addEdge(1, 4);
         graphList.addEdge(2, 4);
-        graphList.addEdge(4, 0);
         graphList.addEdge(4, 2);
+        graphList.addEdge(0, 1);
 
-        graphMatrix.display();
         
-        System.out.println("Linked graph:");
+
+        graphMatrix.print();
+        
+        System.out.println("List graph:");
         System.out.println();
 
-        graphList.display();
+        graphList.print();
 
         System.out.println();
 

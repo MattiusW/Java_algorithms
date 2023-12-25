@@ -1,8 +1,9 @@
+package brocode;
 public class Node {
     
-    char data;
+    int data;
 
-    Node(char data){
+    Node(int data){
         this.data = data;
     }
 

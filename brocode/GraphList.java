@@ -1,3 +1,4 @@
+package brocode;
 import java.util.ArrayList;
 import java.util.LinkedList;
 
@@ -33,10 +34,10 @@ public class GraphList {
         return false;
     }
 
-    public void display(){
+    public void print(){
         for(LinkedList<Node> currentList : alist){
             for(Node node : currentList){
-                System.out.print(node.data + " -> ");
+                System.out.print(node.data + " -> " );
             }
             System.out.println();
         }

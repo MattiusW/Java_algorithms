@@ -1,3 +1,4 @@
+package brocode;
 import java.util.ArrayList;
 
 public class GraphMatrix {
@@ -27,7 +28,7 @@ public class GraphMatrix {
         }
     }   
     
-    public void display(){
+    public void print(){
         System.out.println("Graph matrix:");
         System.out.println();
         System.out.print("  ");
