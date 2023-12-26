@@ -6,27 +6,27 @@ class TestGraph {
 
     public TestGraph(){
         
-        Graph graph = new Graph(false, true);
-        Vertex start = graph.addVertex("Start");
-        Vertex A = graph.addVertex("A");
-        Vertex B = graph.addVertex("B");
-        Vertex C = graph.addVertex("C");
-        Vertex D = graph.addVertex("D");
-        Vertex E = graph.addVertex("E");
-        Vertex F = graph.addVertex("F");
-        Vertex G = graph.addVertex("G");
+        this.testGraph = new Graph(false, true);
+        Vertex start = testGraph.addVertex("Start");
+        Vertex A = testGraph.addVertex("A");
+        Vertex B = testGraph.addVertex("B");
+        Vertex C = testGraph.addVertex("C");
+        Vertex D = testGraph.addVertex("D");
+        Vertex E = testGraph.addVertex("E");
+        Vertex F = testGraph.addVertex("F");
+        Vertex G = testGraph.addVertex("G");
 
-        graph.addEdge(start, A, null);
-        graph.addEdge(start, B, null);
-        graph.addEdge(A, C, null);
-        graph.addEdge(B, D, null);
-        graph.addEdge(C, D, null);
-        graph.addEdge(D, E, null);
-        graph.addEdge(D, F, null);
-        graph.addEdge(E, F, null);
-        graph.addEdge(F, G, null);
+        testGraph.addEdge(start, A, null);
+        testGraph.addEdge(start, B, null);
+        testGraph.addEdge(A, C, null);
+        testGraph.addEdge(B, D, null);
+        testGraph.addEdge(C, D, null);
+        testGraph.addEdge(D, E, null);
+        testGraph.addEdge(D, F, null);
+        testGraph.addEdge(E, F, null);
+        testGraph.addEdge(F, G, null);
 
-        graph.print();
+        testGraph.print();
     }
 
     public Vertex getStartingVertex(){
