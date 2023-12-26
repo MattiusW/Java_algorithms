@@ -1,4 +1,4 @@
-package dfs;
+package dfsAndBfs;
 
 public class Edge {
     private Vertex start;
