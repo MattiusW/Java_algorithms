@@ -41,7 +41,7 @@ public class Vertex {
             message += edges.get(i).getEnd().data;
 
             if (showWeight){
-                message += " coast:(" + edges.get(i).getWeight() + ")";
+                message += " (" + edges.get(i).getWeight() + ")";
             }
 
             if(i != edges.size() - 1){
