@@ -39,9 +39,12 @@ public class Main {
         graphList.addEdge(4, 2);
         graphList.addEdge(0, 1);
 
-        
-
         graphMatrix.print();
+        System.out.println("DFS:");
+        graphMatrix.depthFirstSearch(0);
+        System.out.println("BFS:");
+        graphMatrix.breadthFirstSearch(1);
+        System.out.println();
         
         System.out.println("List graph:");
         System.out.println();
