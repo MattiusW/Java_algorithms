@@ -19,9 +19,13 @@ public class Graph {
     }
 
     public void addEdge(int src, int dst) {
+        //Directed graph
         LinkedList<Node> currentList = adjList.get(src);
         Node dstNode = adjList.get(dst).get(0);
         currentList.add(dstNode);
+        //Undirected graph
+        Node scrNode = adjList.get(src).get(0);
+        currentList.add(scrNode);
     }
 
     public void print() {
