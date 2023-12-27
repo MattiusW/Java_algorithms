@@ -1,4 +1,4 @@
-package dfsAndBfs;
+package Dfs;
 
 class TestGraph {
      

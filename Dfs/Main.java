@@ -1,4 +1,4 @@
-package dfsAndBfs;
+package Dfs;
 
 import java.util.ArrayList;
 
@@ -10,6 +10,7 @@ public class Main {
         ArrayList<Vertex> visitedVertexs = new ArrayList<>();
         visitedVertexs.add(startingVertex);
 
+        System.out.println("DFS");
         DepthfirstSearch.depthFirstTraversal(startingVertex, visitedVertexs);
     }
 
